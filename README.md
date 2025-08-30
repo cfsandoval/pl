@@ -8,10 +8,10 @@ Special thanks to https://github.com/howettl for his contribution.
 ## A simple to use, survey library for collecting feedback from your users.
 
 
-![alt text](https://github.com/AndreiD/surveylib/raw/master/app/surveygif.gif "Android Survey Gif")
+![alt text](surveygif.gif "Android Survey Gif")
 
 
-### Instalation:
+### Installation:
 
 ~~~~
 compile 'com.androidadvance.surveylib:surveylib:0.0.1'
@@ -20,13 +20,13 @@ compile 'com.androidadvance.surveylib:surveylib:0.0.1'
 
 ### How to use it:
 
-1. Take a look at the [example project](https://github.com/AndreiD/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java)
+1. Take a look at the [example project](https://github.com/cfsandoval/pl/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java)
 
 
 ##### Step 1:
 
 You will need:
-A json file with the questions. Check the [assets folder](https://github.com/AndreiD/surveylib/tree/master/app/src/main/assets) to see 3 examples.
+A json file with the questions. Check the [assets folder](https://github.com/cfsandoval/pl/tree/master/app/src/main/assets) to see 3 examples.
 
 
 ##### Step 2:
@@ -44,10 +44,7 @@ Call the class **SurveyActivity** and pass as an extra the json string.
         });
 ~~~~
 
-
-
-What is loadSurveyJson ? check [this function.](https://github.com/AndreiD/surveylib/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java#L77)
-
+What is loadSurveyJson ? check [this function.](https://github.com/cfsandoval/pl/blob/master/app/src/main/java/androidadvance/com/androidsurveyexample/MainActivity.java#L77)
 
 ##### Step 3:
 
@@ -83,7 +80,6 @@ Add this activity to your manifest file.
 
 You have couple of question types: String, StringMultiline, Number, Radioboxes, Checkboxes. They can be "required" or not, the choices can be random. Check the examples, everything is simple to use.
 
-
 ##### Customizations
 
 ###### Colors
@@ -91,7 +87,7 @@ Use html codes in your json question title, choices. You can see a [compiled lis
 
 Define your material design colors in the style. 
 
-Not enough ? You have to do it yourself. Simplest way is to [Fork this project](https://github.com/AndreiD/surveylib#fork-destination-box) and style, add, modify who you like.
+Not enough ? You have to do it yourself. Simplest way is to [Fork this project](https://github.com/cfsandoval/pl#fork-destination-box) and style, add, modify who you like.
 
 ###### More question types / Other Stuff
 
@@ -99,14 +95,13 @@ Fork this project
 
 #### Troubleshooting 
 
-1. Make sure you have the ***latest*** shit. At this moment: compileSdkVersion 23, targetSdkVersion 23, buildToolsVersion "23.0.1", compile 'com.android.support:appcompat-v7:23.1.0',   compile 'com.android.support:design:23.1.0' etc.
+1. Make sure you have the ***latest*** Android SDK: compileSdkVersion 23, targetSdkVersion 23, buildToolsVersion "23.0.1", compile 'com.android.support:appcompat-v7:23.1.0', compile 'com.android.support:design:23.1.0' etc.
 2. Feed a valid json! Otherwise you'll get errors.
 3. Check the sample project.
 
 #### Updates, Questions, and Requests
 
 Ping me here :)
-
 
 #### TODO://
 
@@ -115,14 +110,12 @@ Ping me here :)
 * Adding a sliding bar / stars question type
 * Waiting for your suggestions
 
-
 #### You like this library ? Check my other projects.
 
 - https://github.com/AndreiD/UltimateAndroidAppTemplate
 - https://github.com/AndreiD/TSnackBar
 
 ### If you use this library, please star this project.
-
 
 #### License
 
